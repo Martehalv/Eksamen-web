@@ -37,8 +37,9 @@ body{
     /*Css for index.html*/
 
 #grid-container{
-    grid-template: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header" "main main main main" "footer footer footer";
+    grid-template-rows: 1fr 2fr 1fr 1fr;
 }
 
 }
