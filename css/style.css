@@ -10,4 +10,35 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #fff;
+    max-width: 1500px;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1, auto);
+    grid-template-areas: "topp" 
+                        "hovedomraade"
+                        "hovedomraade-2"
+                        "hovedomrade-3"  
+                        "baann";
+}
+
+
+/*Css for index.html*/
+
+
+
+
+
+
+@media only screen and (min-width: 850px){
+    
+    /*Css for index.html*/
+
+#grid-container{
+    grid-template: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
 }
