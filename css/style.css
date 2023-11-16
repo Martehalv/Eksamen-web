@@ -13,20 +13,66 @@ body{
     max-width: 1500px;
 }
 
-#grid-container{
+#grid-container{      /*Tatt fra tidligere arbeid i undervisning i webutvikling (Grid mappe)*/
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1, auto);
-    grid-template-areas: "topp" 
-                        "hovedomraade"
-                        "hovedomraade-2"
-                        "hovedomrade-3"  
-                        "baann";
+    grid-template-rows: 1fr 1fr 1fr;
+    /*grid-template-areas: "header" "main" "footer";*/
 }
+
+/*header{
+    grid-area: topp;
+}
+
+main{
+    grid-area: hovedomraade;
+}
+
+footer{
+    grid-area: bann;
+}*/
 
 
 /*Css for index.html*/
 
+#meny{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+#meny img{
+    width: 85px;
+}
+
+#meny ul{
+    display: flex;
+    list-style: none;
+    text-decoration-line: none;
+    gap: 35px;
+}
+
+.btn{
+    color:#000;
+    text-decoration-line: none;
+}
+
+
+.contact-btn{
+    background-color: #e6bd43;
+    color: #000;
+    padding: 1rem;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+.contact-btn:hover{  /*Hvorfor fungerer det ikke?*/
+    background-color: #000;
+    color:#e6bd43;
+}
 
 
 
@@ -36,10 +82,31 @@ body{
     
     /*Css for index.html*/
 
-#grid-container{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "header header header" "main main main main" "footer footer footer";
-    grid-template-rows: 1fr 2fr 1fr 1fr;
-}
+    #grid-container{
+        
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
 
+    header {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    
+    
+    main {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    footer{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
 }
