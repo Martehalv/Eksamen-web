@@ -10,7 +10,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     background-color: #fff;
-    max-width: 1500px;
+    max-width: 1600px;
 }
 
 #grid-container{      /*Tatt fra tidligere arbeid i undervisning i webutvikling (Grid mappe)*/
@@ -33,7 +33,7 @@ footer{
 
 
 
-/*Css for alle sidene*/
+/*Header CSS for alle sidene*/
 
 #meny{
     display: flex;
@@ -74,8 +74,41 @@ footer{
     color:#e6bd43;
 }
 
+#informasjon{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    background-color:#000;
+    width: 100%;
+    padding: 1rem;
+}
 
-/*Css for index.html*/
+
+/*Footer CSS for alle sidene*/
+
+
+#informasjon ul{
+    display: flex;
+    list-style: none;
+    text-decoration-line: none;
+    gap: 35px;
+}
+
+.some{
+    color:#fff;
+}
+
+#informasjon img{
+    width: 90px;
+}
+
+#informasjon p{
+    font-size: 20px;
+    color:#cdcdcd;
+}
+
+
+/*CSS for index.html*/
 
 .headline{           /*Brukt W3schools til å få tekst over bilde. Link: https://www.w3schools.com/howto/howto_css_image_text.asp*/
     display: flex;
@@ -86,7 +119,6 @@ footer{
     position: absolute;
     justify-content: center;
     text-align: center;
-    
 }
 
 .headline p{
@@ -191,27 +223,41 @@ footer{
     padding: 1rem;
 }
 
+#email{
+    padding: 0.4rem;
+    border: #fff;
+}
+
 #email-signup{
     background-color: #e6bd43;
     color:#000;
     padding: 0.5rem;
 }
 
-#informasjon{
+
+/*CSS for products.html*/
+
+
+.headline-portfolio{
     display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    background-color:#000;
-    color:#fff;
-    width: 100%;
+    position: relative;
+    
 }
 
-#informasjon ul{
-    display: flex;
-    list-style: none;
-    text-decoration-line: none;
-    gap: 35px;
+.headline-portfolio h1{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 30%;
+    left: 40%;
 }
+
+.headline-portfolio img{
+    width: 100%;
+    filter:blur(1px);     /*Brukt W3schools for å blurre bildet. Link: https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
+}
+
+
 
 
 
