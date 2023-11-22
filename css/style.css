@@ -220,7 +220,7 @@ header nav ul li a:hover::before{
     width: 100%;
 }
 
-.artikkel-services{
+.artikkel-services{     /*Denne er også i about.html*/
     justify-content: center;
     text-align: center;
     padding: 1.5rem;
@@ -515,6 +515,12 @@ header nav ul li a:hover::before{
     background-color: #000;
     color:#e6bd43;
 } 
+
+#kart img{
+    width: 100%;
+    margin: 0;
+    height: 250px;
+}
 
 @media only screen and (min-width: 850px){
     
