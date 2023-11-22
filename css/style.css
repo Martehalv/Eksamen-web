@@ -21,17 +21,24 @@ body{
     grid-template-areas: "header" "main" "footer";
 }
 
-/*header{
+header{
     grid-area: topp;
+    grid-column: 1;
+    grid-row: 1;
+
 }
 
 main{
     grid-area: hovedomraade;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 footer{
     grid-area: bann;
-}*/
+    grid-column: 1;
+    grid-row: 3;
+}
 
 
 
@@ -56,6 +63,7 @@ footer{
     list-style: none;
     text-decoration-line: none;
     gap: 35px;
+    
 }
 
 .btn{
@@ -516,11 +524,20 @@ header nav ul li a:hover::before{
     color:#e6bd43;
 } 
 
+
+
 #kart img{
     width: 100%;
     margin: 0;
-    height: 250px;
+    height: 20%;
 }
+
+@media only screen and (max-width: 850px){
+    
+
+    
+}
+
 
 @media only screen and (min-width: 850px){
     
