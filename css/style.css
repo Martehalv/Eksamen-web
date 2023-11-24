@@ -341,20 +341,20 @@ footer{
 
 #headline-about-bilde img{
     width: 100%;
-    height: 450px;
+    height: 500px;
 }
 
 .headline-about article{    /*Brukt W3schools til hjelp for å lage boks inni et bilde. Link: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp*/
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
     place-items: center;
     justify-content: center;
     background-color: #fff;
     color: #000;
     padding: 1rem;
-    opacity: 0.8;
-    width: 100%;          /*Brukt W3schools som kilde til opacity. Link: https://www.w3schools.com/css/css_image_transparency.asp*/
+    opacity: 0.8;     /*Brukt W3schools som kilde til opacity. Link: https://www.w3schools.com/css/css_image_transparency.asp*/
+    width: 100%;          
 }
 
 .headline-about article p{
@@ -590,9 +590,9 @@ footer{
 
     #artikkel-services{
         justify-content: center;
-        padding: 1.5rem;
+        padding: 2rem;
     }
-
+    
     .services{
         display: flex;
         justify-content: center;
@@ -658,209 +658,55 @@ footer{
         padding: 0.5rem;
     }
 
-    
 
-/*
-
-#branding-bilde{
-    display: flex;
-    width: 100%;
-    font-weight: bolder;
-}
-
-#branding-bilde img{
-    width: 100%;
-}
-
-#branding-bilde article{
-    padding: 0.5rem;
-    
-}
-
-.design-development-gul-strek{
-    display: flex;
-    border-bottom: solid 4px #e6bd43;
-    margin: 0 1rem 0 1rem;
-}
-
-#design{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 0.5rem;
-    font-weight: bolder;
-}
-
-#design img{
-    width: 100%;
-}
-
-#design article{
-    padding: 0.5rem;
-}
-
-#development{   /*Kan jeg putte branding, design og development i klasse?? Sjekk til slutt!
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 0.5rem;
-    font-weight: bolder;
-}
-
-#development{
-    width: 100%;
-}
-
-#development article{
-    padding: 0.5rem;
-}*/
+    /*CSS for about.html*/
 
 
-/*CSS for about.html*/
+    #headline-about-bilde{
+        position: absolute;
+    }
 
+    #headline-about-bilde img{
+        width: 100%;
+        height: 100%;
+    }
 
-.headline-about{
-    display: inline;
-}
+    .headline-about article{
+        position: relative;
+        top: 20px;
+        right: 20px;
+        left: 550px;
+        width: 650px;
+    }
 
-#headline-about-bilde{
-    width: 100%;
-    position: absolute;
-}
+    .headline-about article p{
+        font-size: 20px;
+        padding: 0.3rem;
+    }
 
-#headline-about-bilde img{
-    width: 100%;
-}
+    .headline-about h1{
+        font-size: 35px;
+    }
 
-.headline-about article{    /*Brukt W3schools til hjelp for å lage boks inni et bilde. Link: https://www.w3schools.com/howto/howto_css_image_text_blocks.asp*/
-    position: relative;
-    top: 20px;
-    right: 20px;
-    left: 600px;
-    background-color: #fff;
-    color: #000;
-    padding: 1rem;
-    width: 650px;
-    opacity: 0.8;          /*Brukt W3schools som kilde til opacity. Link: https://www.w3schools.com/css/css_image_transparency.asp*/
-}
+    #kontakt-informasjon{
+        display: flex;
+        justify-content: center;
+    }
 
-.headline-about article p{
-    font-size: 20px;
-    padding: 0.3rem;
-}
+    #kontakt-informasjon article{
+        padding: 1rem;
+    }
 
-.headline-about h1{
-    font-size: 35px;
-}
+    .hvit-boks{
+        padding: 10px 80px 10px 80px;
+    }
 
-.get-in-touch{
-    background-color: #e6bd43;
-    color: #000;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration-line: none;
-}
+    .hvit-stor-boks{
+        padding: 50px 80px 50px 80px;
+    }
 
-.get-in-touch:hover{  
-    background-color: #000;
-    color:#e6bd43; 
-}
-
-#clients{
-    text-align: center;
-    width: 100%;
-    background-color: #e6bd43;
-    padding: 0.5rem;
-}
-
-#clients h3{
-    font-weight:900;
-}
-
-#clients-bilder{
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-}
-
-#clients-bilder article{
-    padding: 1rem;
-}
-
-#kontakt{
-    background-color: #f1f1f1;
-    padding: 1rem;
-}
-
-#kontakt h4{
-    text-align: center;
-    font-weight: 900;
-    font-size: 35px;
-}
-
-#kontakt h5{
-    font-weight: 900;
-    font-size: 25px;
-    width: 100%;
-}
-
-#kontakt-informasjon{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-#kontakt-informasjon article{
-    padding: 1.5rem;
-    font-size: 20px;
-}
-
-#kontakt-informasjon article span{
-    display: flex;
-    place-items: baseline;
-    gap: 20px;
-}
-
-.email{
-    color:#0b61ff;
-    text-decoration: underline;
-    text-decoration-color: #0b61ff;
-}
-
-.hvit-boks{
-    background-color: #fff;
-    border: #fff;
-    padding: 10px 80px 10px 80px;
-}
-
-.hvit-stor-boks{
-    background-color: #fff;
-    border:#fff;
-    padding: 50px 80px 50px 80px;
-    margin: 0 0 1rem 0;
-}
-
-.send-message{
-    background-color:#e6bd43;
-    color:#000;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    text-decoration-line: none;
-}
-
-.send-message:hover{  
-    background-color: #000;
-    color:#e6bd43;
-} 
-
-
-
-#kart img{
-    width: 100%;
-    margin: 0;
-    height: 20%;
-}
+    #kart img{
+        height: 20%;
+    }
 
 }
