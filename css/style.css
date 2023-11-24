@@ -620,66 +620,47 @@ footer{
     /*CSS for products.html*/
 
 
-.headline-portfolio{
-    display: flex;
-    position: relative;
-}
+    .headline-portfolio h1{
+        justify-content: center;
+        text-align: center;
+        left: 40%;
+        top: 20%;
+    }
 
-.headline-portfolio h1{
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-    top: 30%;
-    left: 40%;
-}
+    .jobs{
+        padding: 0.4rem;
+    }
 
-.headline-portfolio img{
-    width: 100%;
-    filter:blur(1px);     /*Brukt W3schools for å blurre bildet. Link: https://www.w3schools.com/howto/howto_css_blurred_background.asp*/
-}
+    .branding-design-development{
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem;
+        text-align: left;
+    }
 
-.previous-jobs{
-    display: inline-block;
-    width: 100%;
-    padding: 1rem;
-}
+    .branding-design-development img{
+        width: 100%;
+    }
 
-.previous-jobs ul{
-    display: flex;
-    list-style: none;
-    gap: 35px;
-    padding: 1rem;
-}
+    .branding-design-development article{
+        padding: 0.5rem;
+    }
 
-.jobs{
-    text-decoration-line: none;
-    color:#000;
-    padding: 0.3rem;
-    border: solid 3px #000;
-    font-size: 17px;
-}
+    #branding-bilde{
+        justify-content: left;
+    }
 
-.gul-strek{
-    border-bottom: solid 4px #e6bd43;
-    border-top: solid 4px #e6bd43;
-    margin: 0 5px 0 5px;
-}
+    #branding-bilde img{
+        width: 600px;
+    }
 
-#branding{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 0.5rem;
-    font-weight: bolder;
-}
+    #brading-bilde article{
+        padding: 0.5rem;
+    }
 
-#branding img{
-    width: 100%;
-}
+    
 
-#branding article{
-    padding: 0.5rem;
-}
+/*
 
 #branding-bilde{
     display: flex;
@@ -718,7 +699,7 @@ footer{
     padding: 0.5rem;
 }
 
-#development{   /*Kan jeg putte branding, design og development i klasse?? Sjekk til slutt!*/
+#development{   /*Kan jeg putte branding, design og development i klasse?? Sjekk til slutt!
     display: flex;
     width: 100%;
     justify-content: center;
@@ -732,7 +713,7 @@ footer{
 
 #development article{
     padding: 0.5rem;
-}
+}*/
 
 
 /*CSS for about.html*/
