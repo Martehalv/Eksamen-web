@@ -40,6 +40,10 @@ footer{
     grid-row: 3;
 }
 
+
+/*CSS for header på alle sidene*/
+
+
 #meny{
     display: inline-flex;
     flex-direction: column;
@@ -51,7 +55,11 @@ footer{
 
 #meny img{
     width: 95px;
+}
+
+#meny ul{
     place-items: center;
+    
 }
 
 #meny ul li{
@@ -81,6 +89,10 @@ footer{
     background-color: #000;
     color:#e6bd43;
 }
+
+
+/*CSS for footer på alle sidene*/
+
 
 #informasjon{
     display: flex;
