@@ -204,6 +204,10 @@ footer{
     padding: 1rem;
 }
 
+.services i{
+    font-size: 35px;
+}
+
 .services article{
     padding: 1rem;
 }
@@ -301,6 +305,11 @@ footer{
 
 .branding-design-development article{
     padding: 1rem;
+    transition: transform 0.3s ease-in-out;   /*Her brukte jeg chatGPT. Jeg spurte om hvordan man kan forstørre noe når man holder over det.*/
+}
+
+.branding-design-development article:hover{
+    transform: scale(1.1);
 }
 
 #branding-bilde{
@@ -318,6 +327,11 @@ footer{
 
 #branding-bilde article{
     padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#branding-bilde article:hover{
+    transform: scale(1.05);
 }
 
 .design-development-gul-strek{
@@ -592,6 +606,8 @@ footer{
         justify-content: center;
         padding: 2rem;
     }
+
+   
     
     .services{
         display: flex;
@@ -639,7 +655,7 @@ footer{
     }
 
     .branding-design-development img{
-        width: 100%;
+        width: 350px;
     }
 
     .branding-design-development article{
@@ -651,7 +667,7 @@ footer{
     }
 
     #branding-bilde img{
-        width: 600px;
+        width: 550px;
     }
 
     #brading-bilde article{
