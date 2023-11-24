@@ -605,30 +605,19 @@ footer{
         font-size: 20px;
     }
 
-    
-/*
-#sign-up{
-    display: flex;
-    background-color: #cdcdcd;
-    justify-content: center;
-    place-items: center;
-    text-align: center;
-    padding: 1rem;
-}
+    #sign-up{
+        display: flex;
+        justify-content: center;
+        place-items: center;
+    }
 
-#email{
-    padding: 0.4rem;
-    border: #fff;
-}
-
-#email-signup{
-    background-color: #e6bd43;
-    color:#000;
-    padding: 0.5rem;
-}*/
+    #email{
+        padding: 0.4rem;
+        width: 300px;
+    }
 
 
-/*CSS for products.html*/
+    /*CSS for products.html*/
 
 
 .headline-portfolio{
