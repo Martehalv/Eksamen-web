@@ -451,6 +451,9 @@ footer{
 }
 
 #kontakt-informasjon article{
+    display: flex;
+    place-items: center;
+    gap: 25px;
     padding: 1rem;
     font-size: 20px;
 }
@@ -600,7 +603,7 @@ footer{
         padding: 1rem;
     }
 
-    #artikkel-2 span{
+    #artikkel-2 article{
         padding: 0.5rem;
         width: 100%;
     }
@@ -619,8 +622,6 @@ footer{
         padding: 2rem;
     }
 
-   
-    
     .services{
         display: flex;
         justify-content: center;
@@ -721,7 +722,7 @@ footer{
         justify-content: center;
     }
 
-    #kontakt-informasjon article{
+    #kontakt-informasjon section{
         padding: 1rem;
     }
 
