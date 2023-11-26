@@ -15,7 +15,7 @@ body{
     max-width: 1600px;
 }
 
-#grid-container{      /*Tatt fra tidligere arbeid i undervisning i webutvikling (Grid mappe)*/
+#grid-container{      /*Tatt fra tidligere arbeid i undervisning i webutvikling (Grid mappe) Link: https://github.com/HIO-Webutvikling/WEBUTVIKLING2023/blob/main/GRID/11.10/css/style.css*/
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: "header" "main" "footer";
@@ -515,7 +515,6 @@ footer{
     
 }
 
-
 @media only screen and (min-width: 850px){
     
     /*CSS for desktop*/
@@ -523,8 +522,7 @@ footer{
     #grid-container{
         
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas: "header header header" "main main main" "footer footer footer";
-        
+        grid-template-areas: "header header header" "main main main" "footer footer footer";   /*Tatt fra tidligere arbeid i undervisning i webutvikling (Grid mappe) Link: https://github.com/HIO-Webutvikling/WEBUTVIKLING2023/blob/main/GRID/11.10/css/style.css*/
     }
 
     header {
