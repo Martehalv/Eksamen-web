@@ -455,6 +455,7 @@ footer{
     gap: 25px;
     padding: 1rem;
     font-size: 20px;
+    width: 100%;
 }
 
 .hvit-boks{
@@ -483,13 +484,6 @@ footer{
     background-color: #000;
     color:#e6bd43;
 } 
-
-#kontakt-informasjon article span{
-    display: flex;
-    place-items: baseline;
-    gap: 20px;
-    width: 100%;
-}
 
 .email{
     color:#0b61ff;
